@@ -1,0 +1,8 @@
+.button{
+    display: inline-block;
+    background-color: hsl(250, 69%, 61%);;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    
+  }
