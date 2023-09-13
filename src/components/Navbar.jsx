@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import InfoIcon from '@mui/icons-material/Info';
 import ContactSupportIcon from '@mui/icons-material/ContactSupport';
-import '../style/Navbar.css'
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import '../styles/navbar.css'
 
 const Navbar = () => {
     return (
@@ -12,8 +13,8 @@ const Navbar = () => {
             </div>
             <div className="options">
                 <Link to='/aboutus'><InfoIcon id='mui1'/>About Us</Link>
-                <Link to='/contactus'><ContactSupportIcon/>Contact Us</Link>
-                <Link to='/userlogin'>Login</Link>
+                <Link to='/contactus'><ContactSupportIcon id='mui2'/>Contact Us</Link>
+                <Link to='/userlogin'><AccountCircleIcon id='mui3'/>Login</Link>
             </div>
         </div>
     )
