@@ -6,9 +6,11 @@ const UserLogin = () => {
   return (
     <div className='userlogin'>
       <form action="">
-        <input type="email"  placeholder='Enter the Email'/>
+        <br />
+        <br />
+        <input type="email"  placeholder='Enter the Email' className='input1'/>
         <br /><br />
-        <input type="password"  placeholder='Enter the Password'/>
+        <input type="password"  placeholder='Enter the Password' className='input1'/>
         <br /><br />
         <button className='button'>Login</button>
         <br />
