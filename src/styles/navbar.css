@@ -8,6 +8,17 @@
 
 .logo{
     color: black;
+    display: flex;
+    
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.hello,.hello>span{
+    text-decoration: none;
+    
 }
 
 .options>a{
